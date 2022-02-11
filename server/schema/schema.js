@@ -12,9 +12,9 @@ const MovieType = new GraphQLObjectType({
 
 // dummy data for temorary use
 const movies = [
-  { name: "Batman Begins", year: 2005, id: 1 },
-  { name: "The Dark Knight", year: 2008, id: 2 },
-  { name: "The Dark Knight Rises", year: 2012, id: 3 },
+  { name: "Batman Begins", year: 2005, id: "1" },
+  { name: "The Dark Knight", year: 2008, id: "2" },
+  { name: "The Dark Knight Rises", year: 2012, id: "3" },
 ];
 
 const RootQuery = new GraphQLObjectType({
